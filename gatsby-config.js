@@ -1,6 +1,8 @@
+const config = require("./data/config");
+
 module.exports = {
   siteMetadata: {
-    title: "random"
+    title: config.siteTitle,
   },
   plugins : [
     "gatsby-plugin-catch-links",
