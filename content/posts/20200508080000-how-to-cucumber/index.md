@@ -8,4 +8,5 @@ tags:
 ---
 
 You don't.
+
 <img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Aubergine.jpg" width="50%">
