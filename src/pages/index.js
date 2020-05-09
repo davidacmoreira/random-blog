@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Posts from "../components/Posts";
+import SEO from "../components/SEO/SEO";
 import "minireset.css";
 
 export default class Index extends Component {
@@ -9,6 +10,7 @@ export default class Index extends Component {
         const { data } = this.props;
         return (
             <Layout>
+             <SEO title={data.title} />
                 <Posts data={data} />
             </Layout>
         );
