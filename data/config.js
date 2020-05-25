@@ -2,12 +2,12 @@ const config = {
     siteTitle: 'random',
     siteDescription: 'random',
     siteTitleShort: 'random',
-    //siteRss: "/rss.xml",
-    //siteImage: "",
-    //googleAnalyticsID: "",
+    siteRss: "/rss.xml",
+    siteImage: "",
+    googleAnalyticsID: "random-blog",
     themeColor: "#000000",
     backgroundColor: "#F2F3F4",
-    //siteUrl: "",
+    siteUrl: "https://random-blog.netlify.com",
 };
 
 module.exports = config;
