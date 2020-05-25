@@ -7,7 +7,7 @@ const config = {
     googleAnalyticsID: "random-blog",
     themeColor: "#000000",
     backgroundColor: "#F2F3F4",
-    siteUrl: "https://random-blog.netlify.com",
+    siteUrl: "https://random-blog.netlify.app",
 };
 
 module.exports = config;
